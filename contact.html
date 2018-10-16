@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tech Store</title>
+</head>
+
+<body>
+  <!-- Section Header -->
+  <header>
+    <h1>Tech Store</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <input type="search" placeholder="search...">
+  </header>
+
+  <!-- Section Sidebar -->
+  <aside>
+    <h2>Shop by:</h2>
+    <!-- Category Section -->
+    <section>
+      <h3>Category</h3>
+      <hr>
+      <ul>
+        <li>All Items</li>
+        <li>Cameras</li>
+        <li>Laptops</li>
+        <li>Phones</li>
+        <li>Accessories</li>
+        <li>Other</li>
+      </ul>
+    </section>
+    <!-- Pricing Section -->
+    <section>
+      <h3>Price <span>($)</span> </h3>
+      <hr>
+      <ul>
+        <li>1 - 9</li>
+        <li>10 - 29</li>
+        <li>30 - 59</li>
+        <li>60 - 99</li>
+        <li>100 +</li>
+      </ul>
+    </section>
+  </aside>
+  <!-- main content -->
+  <main>
+    <h2>Contact Us:</h2>
+    <form>
+
+      <div>
+        <!-- label links to id name -->
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your name" id="name" name="name">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your email" id="email" name="email">
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea cols="30" rows="5" id="message" name="message"></textarea>
+      </div>
+
+      <!-- <div>
+        <label for="subject">Subject:</label>
+        <select id="subject">
+          <optgroup label="Product issues">
+            <option value="returns">Returns</option>
+            <option value="faulty_item">Faulty Item</option>
+          </optgroup>
+          <optgroup label="Delivery">
+            <option value="delivery">Delivery Info</option>
+            <option value="order_tracking">Tracking my order</option>
+          </optgroup>
+          <optgroup label="other">
+            <option value="advice">Advice</option>
+            <option value="other">Other</option>
+          </optgroup>
+        </select>
+      </div> -->
+
+      <!-- check for browser compatibility -->
+      <div>
+        <label for="subject">Subject:</label>
+        <input type="text" list="subjects" id="subject" placeholder="Enter your subject">
+        <datalist id="subjects">
+          <option value="returns"></option>
+          <option value="faulty item"></option>
+          <option value="deliver"></option>
+          <option value="order tracking"></option>
+          <option value="advice"></option>
+          <option value="other"></option>
+        </datalist>
+      </div>
+      <div>
+        <!-- checkboxes can check multiple -->
+        <p>Subscribe to future offers by:</p>
+        <label for="newsletter">Newsletter</label>
+        <input type="checkbox" name="newsletter" id="newsletter" name="subscribe" value="newsletter">
+
+        <label for="email">Email</label>
+        <input type="checkbox" id="email" name="subscribe" value="email">
+
+        <label for="post">Post</label>
+        <input type="checkbox" id="post" name="subscribe" value="post">
+      </div>
+      <div>
+        <p>How would you like us to respond?</p>
+
+        <label for="phoneResponse">Phone</label>
+        <input type="radio" name="response" id="phoneResponse" value="phone">
+
+        <label for="emailResponse">Email</label>
+        <input type="radio" name="response" id="emailResponse" value="email">
+      </div>
+
+      <div>
+        <input type="submit">
+        <!-- clears all entries -->
+        <input type="reset">
+        <!-- <button type="submit">Send Message</button> -->
+      </div>
+    </form>
+
+    <!-- Google Map -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.7527015499954!2d-0.16542308391327992!3d51.49940547963386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760538ed2a30ff%3A0x15ee630d4b4e0d42!2sHarrods!5e0!3m2!1sen!2suk!4v1539717875382"
+      width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </main>
+
+  <!-- Section Footer -->
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
+</html>
