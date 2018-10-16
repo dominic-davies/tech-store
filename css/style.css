@@ -14,3 +14,13 @@ footer {
   background: #333a40;
   color: #fff;
 }
+
+.product {
+  border: 1px solid grey;
+  width: 200px;
+}
+
+/* image was too big for product detail */
+img {
+  max-width: 100%;
+}
